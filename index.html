@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Café Leonardo ☕</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body class="fade-in">
+
+  <header class="navbar">
+    <div class="logo">
+      <div class="logo-circle">☕</div>
+      <h1>Café Leonardo</h1>
+    </div>
+    <p class="tagline">Leonardo DiCaprio pernah pesan kopi di sini</p>
+  </header>
+
+  <nav class="category-nav">
+    <button class="category-btn active" data-category="all">Semua</button>
+    <button class="category-btn" data-category="panas">Kopi Panas</button>
+    <button class="category-btn" data-category="dingin">Kopi Dingin</button>
+    <button class="category-btn" data-category="snack">Makanan Ringan</button>
+  </nav>
+
+  <main class="menu-container">
+    
+    <div class="menu-card" data-category="panas" onclick="openDetail(1)">
+      <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Espresso">
+      <h3>Espresso</h3>
+      <p>Rp18.000</p>
+    </div>
+
+    <div class="menu-card" data-category="panas" onclick="openDetail(2)">
+      <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" alt="Cappuccino">
+      <h3>Cappuccino</h3>
+      <p>Rp24.000</p>
+    </div>
+
+    <div class="menu-card" data-category="panas" onclick="openDetail(3)">
+      <img src="https://images.unsplash.com/photo-1570968915860-54d5c301fa9b" alt="Latte">
+      <h3>Caffè Latte</h3>
+      <p>Rp26.000</p>
+    </div>
+
+    <div class="menu-card" data-category="dingin" onclick="openDetail(4)">
+      <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b" alt="Iced Americano">
+      <h3>Iced Americano</h3>
+      <p>Rp22.000</p>
+    </div>
+
+    <div class="menu-card" data-category="dingin" onclick="openDetail(5)">
+      <img src="https://images.unsplash.com/photo-1552058544-f2b08422138a" alt="Caramel Macchiato">
+      <h3>Caramel Macchiato</h3>
+      <p>Rp28.000</p>
+    </div>
+
+    <div class="menu-card" data-category="dingin" onclick="openDetail(6)">
+      <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38" alt="Mocha Frappuccino">
+      <h3>Mocha Frappuccino</h3>
+      <p>Rp30.000</p>
+    </div>
+
+    <div class="menu-card" data-category="snack" onclick="openDetail(7)">
+      <img src="https://images.unsplash.com/photo-1572441710534-680c56c22fa8" alt="Croissant">
+      <h3>Croissant</h3>
+      <p>Rp15.000</p>
+    </div>
+
+    <div class="menu-card" data-category="snack" onclick="openDetail(8)">
+      <img src="https://images.unsplash.com/photo-1600891964093-4316c288032e" alt="Cheesecake">
+      <h3>Cheesecake</h3>
+      <p>Rp25.000</p>
+    </div>
+
+    <div class="menu-card" data-category="snack" onclick="openDetail(9)">
+      <img src="https://images.unsplash.com/photo-1613145993482-1dc8c64b04f3" alt="Donat Coklat">
+      <h3>Donat Coklat</h3>
+      <p>Rp12.000</p>
+    </div>
+
+    <div class="menu-card" data-category="dingin" onclick="openDetail(10)">
+      <img src="https://images.unsplash.com/photo-1600891964093-46b72b9b2f1d" alt="Vanilla Sweet Cream Cold Brew">
+      <h3>Vanilla Sweet Cream Cold Brew</h3>
+      <p>Rp29.000</p>
+    </div>
+
+    <div class="menu-card" data-category="panas" onclick="openDetail(11)">
+      <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Americano">
+      <h3>Americano</h3>
+      <p>Rp20.000</p>
+    </div>
+
+    <div class="menu-card" data-category="snack" onclick="openDetail(12)">
+      <img src="https://images.unsplash.com/photo-1589307004391-71c52266d1a0" alt="Muffin Blueberry">
+      <h3>Muffin Blueberry</h3>
+      <p>Rp18.000</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Café Leonardo — Dibuat dengan cinta & kopi ☕</p>
+  </footer>
+
+</body>
+</html>
